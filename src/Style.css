@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+body{
+    width: 100%;
+
+}
+
+#root{
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    /* height: 100vh; */
+    background-color: #111827;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    padding: 3rem;
+}
+
+ header h1{
+    font-size: 5rem;
+    margin-bottom: 20px;
+
+}
+
+header p{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+
+}
+
+ button{
+    width: 200px;
+    height: 70px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    outline: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #111827;
+    color: white;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: white;
+    color: #111827;
+}
+
+
+.User-data-Card {
+    width: 100%;
+    height: 100vh;
+    background-color: #111827;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 2rem; /* Reduced padding for better centering */
+}
+
+.Card {
+    width: 100%;
+    max-width: 600px; /* Made the card responsive */
+    background-color: #1f2937;
+    border-radius: 15px; /* Increased border-radius for a smoother look */
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #ccc;
+}
+
+.img-box {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; /* Equal width and height for a perfect circle */
+    overflow: hidden;
+    border: 2px solid #ccc; /* Added a border for better focus on the image */
+}
+
+.img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the start for better readability */
+    gap: 8px;
+}
+
+.User {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.User p {
+    font-size: 1.2rem; /* Slightly reduced the font size */
+    font-weight: bold;
+    margin: 0; /* Removed default margins */
+}
+
+.User i {
+    color: #4ade80; /* Different icon color for better visual appeal */
+}
+
+.information p {
+    width: 100%;
+    margin: 0;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: flex-start;
+}
+
+.information p:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
